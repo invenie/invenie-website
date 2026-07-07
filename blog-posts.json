@@ -1,0 +1,260 @@
+{
+  "articles": [
+    {
+      "slug": "outgrown-spreadsheet-inventory",
+      "category": "Inventory control",
+      "title": "How to know when your business has outgrown spreadsheet inventory",
+      "summary": "Spreadsheets work until product movement, staff updates, sales activity, and stock corrections start happening faster than one person can reconcile.",
+      "publishedDate": "2026-07-07",
+      "readTime": "4 min read",
+      "highlights": [
+        "Repeated stock mismatches",
+        "No clear audit trail",
+        "Manual low-stock checks"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Spreadsheets are a useful beginning. They are familiar, flexible, and cheap. But inventory work changes quickly once products, staff, pricing, stock-in, stock-out, and sales activity start happening every day."
+        },
+        {
+          "type": "heading",
+          "text": "The first sign is disagreement"
+        },
+        {
+          "type": "paragraph",
+          "text": "When the stock count on the sheet, the shelf, and the sales counter all tell different stories, the business starts making decisions from guesswork. That is usually the moment a spreadsheet has stopped being an inventory system and started becoming a reconciliation problem."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Stock balances are manually edited without clear history.",
+            "Sales are recorded separately from available stock.",
+            "Low-stock checks depend on one person remembering to inspect the sheet.",
+            "Managers cannot easily see who changed what and why."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "A better workflow gives every movement a place"
+        },
+        {
+          "type": "paragraph",
+          "text": "Invenie is designed to give stock movement a structured home: product records, package pricing, sales activity, stock visibility, and operational history. That structure makes it easier to understand what happened without chasing multiple versions of the truth."
+        },
+        {
+          "type": "paragraph",
+          "text": "You do not have to become a large company before you need better inventory controls. You only need enough activity that mistakes are becoming expensive."
+        }
+      ]
+    },
+    {
+      "slug": "stock-adjustment-approvals-protect-margins",
+      "category": "Approvals",
+      "title": "Why stock adjustment approvals protect your margins",
+      "summary": "Approvals are not just bureaucracy. They create a clean checkpoint for shrinkage, damaged stock, corrections, and high-impact inventory changes.",
+      "publishedDate": "2026-07-07",
+      "readTime": "4 min read",
+      "highlights": [
+        "Set thresholds for sensitive changes",
+        "Keep managers informed",
+        "Preserve accountability"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Stock adjustments are sometimes necessary. Products expire, items get damaged, records need correction, and physical stock can disagree with expected balances. The risk is not the adjustment itself. The risk is adjusting stock without control."
+        },
+        {
+          "type": "heading",
+          "text": "Approvals make sensitive changes visible"
+        },
+        {
+          "type": "paragraph",
+          "text": "A stock adjustment approval workflow gives managers a chance to review important changes before they affect business reporting. This protects margins because stock losses, corrections, and shrinkage become visible events instead of quiet edits."
+        },
+        {
+          "type": "list",
+          "items": [
+            "High-value adjustments can require review.",
+            "Managers can approve or reject changes with context.",
+            "Teams can separate normal correction from suspicious movement.",
+            "Audit history makes follow-up easier."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Good controls do not slow the business down"
+        },
+        {
+          "type": "paragraph",
+          "text": "The goal is not to block every action. The goal is to decide which changes are routine and which changes deserve a second look. Invenie's approval settings help teams keep daily work moving while still protecting sensitive stock changes."
+        }
+      ]
+    },
+    {
+      "slug": "inventory-across-branches",
+      "category": "Branch operations",
+      "title": "What changes when inventory moves across branches",
+      "summary": "Multi-branch inventory needs more than location names. It needs requisitions, issuance, receiving, and visibility into what each branch can actually use.",
+      "publishedDate": "2026-07-07",
+      "readTime": "5 min read",
+      "highlights": [
+        "Track source and destination branches",
+        "Separate requests from issued stock",
+        "Monitor cross-branch availability"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A single-location inventory process can be simple: stock comes in, stock is sold, and stock is counted. Branch operations change that pattern because inventory can move between locations before it reaches a customer."
+        },
+        {
+          "type": "heading",
+          "text": "Branches need workflow, not just labels"
+        },
+        {
+          "type": "paragraph",
+          "text": "If branches only exist as names on a sheet, it becomes difficult to know whether stock was requested, approved, issued, received, or still in transit. A proper branch workflow gives each step a status."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Requisitions show what a branch requested.",
+            "Issuance records what was actually released.",
+            "Receiving confirms what arrived.",
+            "Branch dashboards show location-specific activity."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Visibility keeps branches aligned"
+        },
+        {
+          "type": "paragraph",
+          "text": "Invenie's Full Operations plan is built for this kind of movement. It helps teams coordinate branch requests, issuance, receiving, and cross-branch visibility without turning every stock transfer into a manual investigation."
+        }
+      ]
+    },
+    {
+      "slug": "connect-sales-to-live-stock",
+      "category": "Sales stock",
+      "title": "Connecting sales activity to live stock visibility",
+      "summary": "When sales and stock live in separate systems, teams make decisions from stale numbers. A connected workflow keeps selling and replenishment aligned.",
+      "publishedDate": "2026-07-07",
+      "readTime": "4 min read",
+      "highlights": [
+        "Know what is available to sell",
+        "Reduce overselling",
+        "Spot fast-moving items earlier"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Sales teams need confidence that the stock they are selling is actually available. Inventory teams need to know which products are moving. When both teams work from disconnected records, the business reacts late."
+        },
+        {
+          "type": "heading",
+          "text": "Stock visibility should change with sales activity"
+        },
+        {
+          "type": "paragraph",
+          "text": "A connected sales and inventory workflow helps prevent overselling, stale stock counts, and delayed replenishment. It also gives the team a clearer view of fast-moving products and slow-moving products."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Product package prices stay connected to selling activity.",
+            "Available stock can guide what sales staff offer.",
+            "Low-stock alerts become more meaningful.",
+            "Managers can see how selling affects inventory."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This is why Invenie's Sales Ready Inventory plan starts with the basics: product records, package pricing, stock visibility, sales features, and low-stock signals."
+        }
+      ]
+    },
+    {
+      "slug": "supplier-records-inventory-memory",
+      "category": "Suppliers",
+      "title": "Supplier records are part of inventory memory",
+      "summary": "Supplier-linked stock-in records help you understand where products came from, what they cost, and how purchasing choices affect operations later.",
+      "publishedDate": "2026-07-07",
+      "readTime": "4 min read",
+      "highlights": [
+        "Improve purchase history",
+        "Trace supply relationships",
+        "Support better replenishment"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Supplier records are often treated as an address book. In inventory operations, they are more than that. They explain where stock came from, what purchasing relationship supports it, and how replenishment decisions are made."
+        },
+        {
+          "type": "heading",
+          "text": "Stock-in records become more useful with supplier context"
+        },
+        {
+          "type": "paragraph",
+          "text": "When stock-in is linked to a supplier, managers can better understand purchase history and product sourcing. This is useful when reviewing cost, quality, availability, and supplier reliability."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Track which supplier provided a product.",
+            "Review stock-in history by supplier.",
+            "Support better reorder decisions.",
+            "Create accountability around purchasing."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Invenie's Operational Inventory plan introduces supplier management for businesses that are ready to move beyond simple stock visibility into stronger operational control."
+        }
+      ]
+    },
+    {
+      "slug": "ai-inventory-questions",
+      "category": "AI assistance",
+      "title": "How AI can help teams ask better inventory questions",
+      "summary": "AI becomes useful when it is grounded in operational data: stock, sales, branches, low-stock signals, and the workflows your team already runs.",
+      "publishedDate": "2026-07-07",
+      "readTime": "4 min read",
+      "highlights": [
+        "Ask about low-stock trends",
+        "Summarize branch activity",
+        "Find operational blind spots"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "AI is most helpful when it is connected to real business context. For inventory teams, that context includes stock records, sales activity, branches, low-stock signals, and operational workflows."
+        },
+        {
+          "type": "heading",
+          "text": "Better questions lead to better decisions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead of manually searching through reports, teams can ask questions about the state of their inventory. The value is not magic. It is speed, context, and helping people notice patterns earlier."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Which products are near reorder level?",
+            "What sales activity should we review?",
+            "Which branches need attention?",
+            "Where are operational bottlenecks appearing?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Invenie includes AI assistant access across public plans so teams can use operational data more conversationally as their inventory process matures."
+        }
+      ]
+    }
+  ]
+}

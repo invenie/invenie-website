@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>window.LANDING_SITE_ID = 'LS-laa4bu20im'</script>
+    <script>window.LANDING_SITE_CONTACT_US_URL = 'https://oaojaap5re2buacyhw4cycgvza0shopu.lambda-url.us-east-2.on.aws/'</script>
+    <script>window.LANDING_SITE_WAITLIST_URL = 'https://bdldawixswmdefh3p6np22gydi0ojqed.lambda-url.us-east-2.on.aws/'</script>
+    <script src="/public/main.umd.js"></script>
+
+    <meta charset="utf-8">
+    <title>Invenie Article</title>
+    <meta name="description" content="Read practical inventory management insights from Invenie.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="media/invenieicon.png" type="image/png">
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lato:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    >
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lato:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+      >
+    </noscript>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="pricing-page article-page">
+    <div id="site-header"></div>
+    <script src="site-header.js"></script>
+
+    <main>
+      <article class="article-shell">
+        <div class="pricing-container">
+          <a class="article-back-link" href="blog.html">Back to Blog</a>
+          <div id="article-root" class="article-loading">Loading article...</div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="pricing-footer">
+      <div class="pricing-container pricing-footer-inner">
+        <a class="pricing-footer-brand" href="index.html">Invenie</a>
+        <div class="pricing-footer-links">
+          <a href="index.html">Home</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="blog.html">Blog</a>
+          <a href="faqs.html">FAQs</a>
+          <a href="index.html#sm5exha">Contact</a>
+        </div>
+        <div class="pricing-social-links">
+          <a href="https://www.instagram.com/app_invenie/" aria-label="Instagram">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/invenie" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+          <a href="https://x.com/invenie" aria-label="X">
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <p class="pricing-copyright">@ copyright invenie.com 2025. All Rights Reserved</p>
+    </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const root = document.getElementById('article-root');
+        const params = new URLSearchParams(window.location.search);
+        const slug = params.get('slug');
+
+        function escapeHtml(value) {
+          return String(value ?? '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+        }
+
+        function formatDate(value) {
+          if (!value) return '';
+          const date = new Date(`${value}T00:00:00`);
+          if (Number.isNaN(date.getTime())) return value;
+          return date.toLocaleDateString(undefined, {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+          });
+        }
+
+        function renderBlock(block) {
+          if (block.type === 'heading') {
+            return `<h2>${escapeHtml(block.text)}</h2>`;
+          }
+
+          if (block.type === 'list') {
+            const items = (block.items || [])
+              .map((item) => `<li>${escapeHtml(item)}</li>`)
+              .join('');
+            return `<ul>${items}</ul>`;
+          }
+
+          return `<p>${escapeHtml(block.text)}</p>`;
+        }
+
+        function renderArticle(article, relatedArticles) {
+          document.title = `${article.title} | Invenie Blog`;
+          const metaDescription = document.querySelector('meta[name="description"]');
+          if (metaDescription) metaDescription.setAttribute('content', article.summary || 'Read practical inventory management insights from Invenie.');
+
+          root.className = 'article-content-wrap';
+          root.innerHTML = `
+            <header class="article-header">
+              <span class="resource-tag">${escapeHtml(article.category)}</span>
+              <h1>${escapeHtml(article.title)}</h1>
+              <p>${escapeHtml(article.summary)}</p>
+              <div class="article-meta">
+                <span>${escapeHtml(formatDate(article.publishedDate))}</span>
+                <span>${escapeHtml(article.readTime)}</span>
+              </div>
+            </header>
+            <div class="article-layout">
+              <div class="article-content">
+                ${(article.content || []).map(renderBlock).join('')}
+              </div>
+              <aside class="article-sidebar">
+                <div class="article-sidebar-card">
+                  <span class="resource-tag">Key points</span>
+                  <ul>
+                    ${(article.highlights || []).map((item) => `<li>${escapeHtml(item)}</li>`).join('')}
+                  </ul>
+                </div>
+                <div class="article-sidebar-card">
+                  <span class="resource-tag">Related reads</span>
+                  <div class="article-related-list">
+                    ${relatedArticles.map((item) => `
+                      <a href="article.html?slug=${encodeURIComponent(item.slug)}">
+                        <strong>${escapeHtml(item.title)}</strong>
+                        <small>${escapeHtml(item.category)}</small>
+                      </a>
+                    `).join('')}
+                  </div>
+                </div>
+              </aside>
+            </div>
+          `;
+        }
+
+        function renderNotFound() {
+          root.className = 'article-error';
+          root.innerHTML = `
+            <span class="resource-tag">Article not found</span>
+            <h1>We could not find that article.</h1>
+            <p>The blog post may have moved, or the link may be missing a valid slug.</p>
+            <a class="pricing-button" href="blog.html">Back to Blog</a>
+          `;
+        }
+
+        fetch('blog-posts.json')
+          .then((response) => {
+            if (!response.ok) throw new Error('Unable to load article content.');
+            return response.json();
+          })
+          .then((data) => {
+            const articles = Array.isArray(data.articles) ? data.articles : [];
+            const article = articles.find((item) => item.slug === slug);
+
+            if (!article) {
+              renderNotFound();
+              return;
+            }
+
+            const related = articles
+              .filter((item) => item.slug !== article.slug)
+              .slice(0, 3);
+
+            renderArticle(article, related);
+          })
+          .catch(() => {
+            root.className = 'article-error';
+            root.innerHTML = `
+              <span class="resource-tag">Content unavailable</span>
+              <h1>We could not load the article content.</h1>
+              <p>Please open this page through a local web server or your deployed site so the JSON content file can be loaded.</p>
+              <a class="pricing-button" href="blog.html">Back to Blog</a>
+            `;
+          });
+      });
+    </script>
+    <script defer src="https://kit.fontawesome.com/8e98006f77.js" crossorigin="anonymous"></script>
+  </body>
+</html>
