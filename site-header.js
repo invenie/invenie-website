@@ -17,7 +17,7 @@
       <nav class="2xl:text-base">
         <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-6">
           <a class="block" href="index.html">
-            <img src="./media/Dark_Primary_Logo_invenie.png" alt="Invenie Logo" class="h-16 w-auto dont-replace">
+            <img src="./public/logos/dark_primary_logo_invenie.png" alt="Invenie Logo" class="h-16 w-auto dont-replace">
           </a>
           <div class="flex md:hidden">
             <button id="mobile-menu-button" type="button" class="toggleMenu" aria-controls="navigation-menu" aria-expanded="false" aria-label="Navigation Menu">
