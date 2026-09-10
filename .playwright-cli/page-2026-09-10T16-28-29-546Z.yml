@@ -1,0 +1,233 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e3]:
+    - navigation [ref=f2e4]:
+      - generic [ref=f2e5]:
+        - link [ref=f2e6] [cursor=pointer]:
+          - /url: index.html
+          - img "Invenie Logo" [ref=f2e7]
+        - text: 
+        - generic [ref=f2e8]:
+          - list [ref=f2e9]:
+            - listitem [ref=f2e10]:
+              - link "Solutions" [ref=f2e11] [cursor=pointer]:
+                - /url: solutions.html
+            - listitem [ref=f2e12]:
+              - link "Pricing" [ref=f2e13] [cursor=pointer]:
+                - /url: pricing.html
+            - listitem [ref=f2e14]:
+              - button "Resources" [ref=f2e16] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f2e18]: 
+            - listitem [ref=f2e19]:
+              - link "Contact" [ref=f2e20] [cursor=pointer]:
+                - /url: index.html#sm5exha
+          - link "Schedule a Demo" [ref=f2e22] [cursor=pointer]:
+            - /url: https://zcal.co/pelumi/30min
+  - main [ref=f2e23]:
+    - generic [ref=f2e25]:
+      - generic [ref=f2e26]:
+        - paragraph [ref=f2e27]: Invenie pricing
+        - heading "Pick the plan that fits how your business moves inventory." [level=1] [ref=f2e28]
+        - paragraph [ref=f2e29]: Start managing your inventory at no cost, add staff accountability and approvals as you grow, or unlock branch workflows for distributed inventory operations.
+        - generic [ref=f2e30]:
+          - link "View plans" [ref=f2e31] [cursor=pointer]:
+            - /url: "#plans"
+          - link "Compare features" [ref=f2e32] [cursor=pointer]:
+            - /url: "#compare"
+      - generic [ref=f2e33]:
+        - generic [ref=f2e34]: Annual paid plans save 10%
+        - heading "Start Free. Grow when you're ready." [level=2] [ref=f2e35]
+        - paragraph [ref=f2e36]: Starter is free forever, with no credit card required. Upgrade to Growth or Full Operations when you need more operational control.
+        - generic [ref=f2e37]:
+          - generic [ref=f2e38]:
+            - strong [ref=f2e39]: Free
+            - generic [ref=f2e40]: Starter · free forever
+          - generic [ref=f2e41]:
+            - strong [ref=f2e42]: ₦10k
+            - generic [ref=f2e43]: Growth starts monthly
+          - generic [ref=f2e44]:
+            - strong [ref=f2e45]: ₦15k
+            - generic [ref=f2e46]: Full Operations starts monthly
+    - generic [ref=f2e48]:
+      - generic [ref=f2e49]:
+        - generic [ref=f2e50]:
+          - paragraph [ref=f2e51]: Plans
+          - heading "Simple pricing for each stage of inventory growth." [level=2] [ref=f2e52]
+        - generic [ref=f2e53]:
+          - generic "Billing cycle" [ref=f2e54]:
+            - button "Monthly" [pressed] [ref=f2e55] [cursor=pointer]
+            - button "Annual - save 10%" [ref=f2e56] [cursor=pointer]
+          - paragraph [ref=f2e57]: Billing cycle applies to paid plans only. Starter is always free.
+      - generic [ref=f2e58]:
+        - article [ref=f2e59]:
+          - generic [ref=f2e60]: Free forever
+          - heading "Starter" [level=3] [ref=f2e61]
+          - paragraph [ref=f2e62]: For small businesses getting started with organized inventory management.
+          - strong [ref=f2e64]: Free
+          - paragraph [ref=f2e65]: Free forever. No credit card required.
+          - paragraph [ref=f2e66]: 50 inventory items · 1 owner · 1 location
+          - link "Start Free" [ref=f2e67] [cursor=pointer]:
+            - /url: https://app.invenie.com
+          - list [ref=f2e68]:
+            - listitem [ref=f2e69]: ✓ Core inventory management
+            - listitem [ref=f2e70]: ✓ Stock-in and sales recording
+            - listitem [ref=f2e71]: ✓ Low-stock visibility
+            - listitem [ref=f2e72]: ✓ Basic dashboard
+            - listitem [ref=f2e73]: ✓ Basic sales history
+          - generic [ref=f2e74]:
+            - strong [ref=f2e75]: Room to grow
+            - paragraph [ref=f2e76]: Start managing your inventory at no cost. Move to Growth when you need more items, staff, or operational controls.
+        - article [ref=f2e77]:
+          - generic [ref=f2e78]: Most balanced
+          - heading "Growth" [level=3] [ref=f2e79]
+          - paragraph [ref=f2e80]: Professional inventory operations for growing businesses with staff accountability, supplier management, and controlled stock workflows.
+          - generic [ref=f2e81]:
+            - strong [ref=f2e82]: ₦10,000
+            - generic [ref=f2e83]: / month
+          - paragraph [ref=f2e84]: "Annual: ₦108,000/year, equal to ₦9,000/month."
+          - paragraph [ref=f2e85]: Eligible businesses can try their first paid monthly plan free for 14 days.
+          - link "Choose Growth" [ref=f2e86] [cursor=pointer]:
+            - /url: https://app.invenie.com
+          - list [ref=f2e87]:
+            - listitem [ref=f2e88]: ✓ Core features in Starter, plus more inventory capacity
+            - listitem [ref=f2e89]: ✓ Product packages, pricing, and AI assistant access
+            - listitem [ref=f2e90]: ✓ Supplier management and supplier-linked stock-in
+            - listitem [ref=f2e91]: ✓ User and role management
+            - listitem [ref=f2e92]: ✓ Stock adjustment workflow and approval settings
+            - listitem [ref=f2e93]: ✓ Audit trail, notifications, and operational dashboard
+          - generic [ref=f2e94]:
+            - strong [ref=f2e95]: Best for
+            - paragraph [ref=f2e96]: Growing single-location businesses that need staff accountability, approvals, suppliers, and governance.
+        - article [ref=f2e97]:
+          - generic [ref=f2e98]: Advanced
+          - heading "Full Operations" [level=3] [ref=f2e99]
+          - paragraph [ref=f2e100]: Full operational control for businesses managing branches, requisitions, issuance, receiving, supplier operations, sales, and distributed inventory workflows.
+          - generic [ref=f2e101]:
+            - strong [ref=f2e102]: ₦15,000
+            - generic [ref=f2e103]: / month
+          - paragraph [ref=f2e104]: "Annual: ₦162,000/year, equal to ₦13,500/month."
+          - paragraph [ref=f2e105]: Eligible businesses can try their first paid monthly plan free for 14 days.
+          - link "Choose Full Operations" [ref=f2e106] [cursor=pointer]:
+            - /url: https://app.invenie.com
+          - list [ref=f2e107]:
+            - listitem [ref=f2e108]: ✓ Everything in Growth
+            - listitem [ref=f2e109]: ✓ Branch management and multiple locations
+            - listitem [ref=f2e110]: ✓ Requisitions, issuance, and receiving
+            - listitem [ref=f2e111]: ✓ Inter-branch stock movement
+            - listitem [ref=f2e112]: ✓ Branch dashboards and cross-branch visibility
+          - generic [ref=f2e113]:
+            - strong [ref=f2e114]: Best for
+            - paragraph [ref=f2e115]: Multi-branch businesses, distributed teams, and operators that need controlled movement across locations.
+    - generic [ref=f2e117]:
+      - generic [ref=f2e118]:
+        - generic [ref=f2e119]:
+          - paragraph [ref=f2e120]: Compare
+          - heading "See what each plan unlocks." [level=2] [ref=f2e121]
+        - paragraph [ref=f2e122]: Higher plans add the controls needed for teams, suppliers, approvals, branches, and distributed stock movement.
+      - table [ref=f2e124]:
+        - rowgroup [ref=f2e125]:
+          - row [ref=f2e126]:
+            - columnheader "Feature" [ref=f2e127]
+            - columnheader "Starter" [ref=f2e128]
+            - columnheader "Growth" [ref=f2e129]
+            - columnheader "Full Operations" [ref=f2e130]
+        - rowgroup [ref=f2e131]:
+          - row [ref=f2e132]:
+            - cell "Core inventory, stock-in, sales, low-stock visibility" [ref=f2e133]
+            - cell "✓" [ref=f2e134]
+            - cell "✓" [ref=f2e135]
+            - cell "✓" [ref=f2e136]
+          - row [ref=f2e137]:
+            - cell "Product packages, pricing, and AI assistant access" [ref=f2e138]
+            - cell "—" [ref=f2e139]
+            - cell "✓" [ref=f2e140]
+            - cell "✓" [ref=f2e141]
+          - row [ref=f2e142]:
+            - cell "Supplier management" [ref=f2e143]
+            - cell "—" [ref=f2e144]
+            - cell "✓" [ref=f2e145]
+            - cell "✓" [ref=f2e146]
+          - row [ref=f2e147]:
+            - cell "User and role management" [ref=f2e148]
+            - cell "—" [ref=f2e149]
+            - cell "✓" [ref=f2e150]
+            - cell "✓" [ref=f2e151]
+          - row [ref=f2e152]:
+            - cell "Stock adjustment approvals, audit trail, notifications" [ref=f2e153]
+            - cell "—" [ref=f2e154]
+            - cell "✓" [ref=f2e155]
+            - cell "✓" [ref=f2e156]
+          - row [ref=f2e157]:
+            - cell "Branch management and multiple locations" [ref=f2e158]
+            - cell "—" [ref=f2e159]
+            - cell "—" [ref=f2e160]
+            - cell "✓" [ref=f2e161]
+          - row [ref=f2e162]:
+            - cell "Requisitions, issuance, receiving, and inter-branch movement" [ref=f2e163]
+            - cell "—" [ref=f2e164]
+            - cell "—" [ref=f2e165]
+            - cell "✓" [ref=f2e166]
+          - row [ref=f2e167]:
+            - cell "Branch dashboards and cross-branch operational visibility" [ref=f2e168]
+            - cell "—" [ref=f2e169]
+            - cell "—" [ref=f2e170]
+            - cell "✓" [ref=f2e171]
+    - generic [ref=f2e173]:
+      - generic [ref=f2e174]:
+        - generic [ref=f2e175]:
+          - paragraph [ref=f2e176]: Questions
+          - heading "Practical answers before you choose." [level=2] [ref=f2e177]
+        - paragraph [ref=f2e178]: If you are between two plans, pick the one that matches the workflow you need today. You can upgrade as operations grow.
+      - generic [ref=f2e179]:
+        - article [ref=f2e180]:
+          - heading "Which plan should a single shop start with?" [level=3] [ref=f2e181]
+          - paragraph [ref=f2e182]: Starter is free forever for up to 50 inventory items, one owner, and one location. It includes core inventory, stock-in, sales, low-stock visibility, a basic dashboard, and basic sales history. No credit card required.
+        - article [ref=f2e183]:
+          - heading "When should I choose Growth?" [level=3] [ref=f2e184]
+          - paragraph [ref=f2e185]: Choose Growth when staff accountability, suppliers, stock adjustment approvals, notifications, audit trail, and operational dashboard matter.
+        - article [ref=f2e186]:
+          - heading "Does Starter use up my paid-plan trial?" [level=3] [ref=f2e187]
+          - paragraph [ref=f2e188]: No. Starter is not a trial. Businesses without previous paid subscriptions or paid-plan trials may qualify for a 14-day trial on their first paid monthly plan. Annual paid plans do not include a trial.
+        - article [ref=f2e189]:
+          - heading "Is Storefront included?" [level=3] [ref=f2e190]
+          - paragraph [ref=f2e191]: Storefront is Coming Soon in Invenie's App/Plugin Store. Its future pricing and plan availability have not been decided.
+        - article [ref=f2e192]:
+          - heading "Which plan supports branches?" [level=3] [ref=f2e193]
+          - paragraph [ref=f2e194]: Full Operations is the branch-ready plan. It includes multiple locations, requisitions, issuance, receiving, inter-branch movement, and branch dashboards.
+        - article [ref=f2e195]:
+          - heading "Do annual plans include a discount?" [level=3] [ref=f2e196]
+          - paragraph [ref=f2e197]: Yes. Growth and Full Operations cost 10% less annually than 12 monthly payments. Starter stays free forever and has no annual billing.
+    - generic [ref=f2e200]:
+      - generic [ref=f2e201]:
+        - paragraph [ref=f2e202]: Need help choosing?
+        - heading "Let’s match the plan to your workflow." [level=2] [ref=f2e203]
+        - paragraph [ref=f2e204]: Tell us whether you sell from one location, manage staff approvals, or operate across branches, and we’ll help you pick the cleanest starting point.
+      - link "Schedule a Demo" [ref=f2e205] [cursor=pointer]:
+        - /url: https://zcal.co/pelumi/30min
+  - contentinfo [ref=f2e206]:
+    - generic [ref=f2e207]:
+      - link "Invenie" [ref=f2e208] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=f2e209]:
+        - link "Home" [ref=f2e210] [cursor=pointer]:
+          - /url: index.html
+        - link "Solutions" [ref=f2e211] [cursor=pointer]:
+          - /url: solutions.html
+        - link "Pricing" [ref=f2e212] [cursor=pointer]:
+          - /url: pricing.html
+        - link "Blog" [ref=f2e213] [cursor=pointer]:
+          - /url: blog.html
+        - link "FAQs" [ref=f2e214] [cursor=pointer]:
+          - /url: faqs.html
+        - link "Contact" [ref=f2e215] [cursor=pointer]:
+          - /url: index.html#sm5exha
+      - generic [ref=f2e216]:
+        - link "Instagram" [ref=f2e217] [cursor=pointer]:
+          - /url: https://www.instagram.com/app_invenie/
+          - generic [aria-hidden] [ref=f2e218]: 
+        - link "LinkedIn" [ref=f2e219] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/invenie
+          - generic [aria-hidden] [ref=f2e220]: 
+        - link "X" [ref=f2e221] [cursor=pointer]:
+          - /url: https://x.com/invenie
+          - generic [aria-hidden] [ref=f2e222]: 
+    - paragraph [ref=f2e223]: "@ copyright invenie.com 2025. All Rights Reserved"

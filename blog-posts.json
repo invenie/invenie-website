@@ -172,7 +172,7 @@
         },
         {
           "type": "paragraph",
-          "text": "This is why Invenie's Sales Ready Inventory plan starts with the basics: product records, package pricing, stock visibility, sales features, and low-stock signals."
+          "text": "This is why Invenie's Starter plan is free forever for up to 50 inventory items, one owner, and one location, with core inventory, stock-in, sales, low-stock visibility, a basic dashboard, and basic sales history."
         }
       ]
     },
@@ -212,7 +212,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Invenie's Operational Inventory plan introduces supplier management for businesses that are ready to move beyond simple stock visibility into stronger operational control."
+          "text": "Invenie's Growth plan introduces supplier management for businesses that are ready to move beyond simple stock visibility into stronger operational control."
         }
       ]
     },
@@ -252,7 +252,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Invenie includes AI assistant access across public plans so teams can use operational data more conversationally as their inventory process matures."
+          "text": "Invenie includes AI assistant access on Growth and Full Operations so teams can use operational data more conversationally as their inventory process matures."
         }
       ]
     }
