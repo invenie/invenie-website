@@ -10,6 +10,31 @@ body {
 }
 
 /* Pricing page */
+/* Shared acquisition actions retain the existing button shape and brand palette. */
+.pricing-button {
+  min-height: 44px;
+  text-align: center;
+}
+.cta-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; }
+.pricing-cta .cta-actions { flex: 0 0 auto; flex-direction: column; }
+.cta-secondary { color: var(--primary-color); text-decoration: underline; text-underline-offset: 4px; padding: 12px 0; }
+.pricing-cta .cta-secondary { color: #fff; }
+.cta-feature-end { padding-bottom: 48px; }
+.cta-free-note { color: var(--primary-color); margin-bottom: 20px; }
+.cta-feature-end p { margin-bottom: 16px; font-size: 22px; color: var(--primary-color); }
+.article-start-free { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--light-border-color); }
+.article-start-free .pricing-button { text-decoration: none; }
+#site-header .header-start-free { flex-shrink: 0; margin-left: 20px; }
+#site-header .header-menu-toggle { display: none; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--primary-color); outline-offset: 4px; }
+.pricing-cta a:focus-visible { outline-color: #fff; }
+@media (max-width: 1023px) {
+  #site-header .header-menu-toggle { display: flex; order: 3; margin-left: 12px; }
+  #site-header .header-start-free { margin-left: auto; padding: 10px 14px; }
+  #site-header .header-menu-toggle button { min-width: 44px; min-height: 44px; }
+  #site-header nav > div > a:first-child img { width: 110px; height: auto; }
+}
+
 .pricing-page {
   background: #faf8f4;
   color: var(--secondary-color);
@@ -1232,3 +1257,9 @@ body {
     font-size: 38px;
   }
 }
+
+/* Use the darker brand teal for readable acquisition labels. */
+.pricing-button:not(.pricing-button-white):not(.pricing-button-light) { background: var(--primary-color); border-color: var(--primary-color); color: #fff; }
+.pricing-button:not(.pricing-button-white):not(.pricing-button-light):hover { background: var(--secondary-color); }
+.pricing-button-light { color: var(--primary-color); border-color: var(--primary-color); }
+.pricing-button-light:hover { background: var(--primary-color); }

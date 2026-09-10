@@ -19,7 +19,7 @@
           <a class="block" href="index.html">
             <img src="./public/logos/dark_primary_logo_invenie.png" alt="Invenie Logo" class="h-16 w-auto dont-replace">
           </a>
-          <div class="flex md:hidden">
+          <div class="header-menu-toggle">
             <button id="mobile-menu-button" type="button" class="toggleMenu" aria-controls="navigation-menu" aria-expanded="false" aria-label="Navigation Menu">
               <i class="fa-regular fa-bars text-2xl" aria-hidden="true"></i>
             </button>
@@ -50,12 +50,9 @@
                 <a href="${contactHref}" class="${linkClass(false)}">Contact</a>
               </li>
             </ul>
-            <div class="flex flex-col md:flex-row items-center space-y-4 md:mt-0 md:space-y-0 md:space-x-4 px-5 md:p-0">
-              <a class="rounded-[var(--button-rounded-radius)] rounded-br-none border bg-[var(--primary-button-bg-color)] px-[var(--button-padding-x)] py-[var(--button-padding-y)] text-lg font-light text-[var(--primary-button-text-color)] transition ease-linear hover:bg-[var(--primary-button-hover-bg-color)] hover:text-[var(--primary-button-hover-text-color)] md:px-8 md:py-4" href="https://zcal.co/pelumi/30min">
-                <span>Schedule a Demo</span>
-              </a>
-            </div>
+
           </div>
+          <a class="pricing-button header-start-free" href="https://app.invenie.com/create-account">Start Free</a>
         </div>
       </nav>
     </header>

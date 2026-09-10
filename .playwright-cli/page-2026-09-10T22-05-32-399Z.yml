@@ -1,0 +1,183 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e3]:
+    - navigation [ref=f2e4]:
+      - generic [ref=f2e5]:
+        - link [ref=f2e6] [cursor=pointer]:
+          - /url: index.html
+          - img "Invenie Logo" [ref=f2e7]
+        - text: 
+        - list [ref=f2e9]:
+          - listitem [ref=f2e10]:
+            - link "Solutions" [ref=f2e11] [cursor=pointer]:
+              - /url: solutions.html
+          - listitem [ref=f2e12]:
+            - link "Pricing" [ref=f2e13] [cursor=pointer]:
+              - /url: pricing.html
+          - listitem [ref=f2e14]:
+            - button "Resources" [ref=f2e16] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f2e18]: 
+          - listitem [ref=f2e19]:
+            - link "Contact" [ref=f2e20] [cursor=pointer]:
+              - /url: "#sm5exha"
+        - link "Start Free" [ref=f2e21] [cursor=pointer]:
+          - /url: https://app.invenie.com/create-account
+  - generic [ref=f2e23]:
+    - generic [ref=f2e24]:
+      - generic [ref=f2e25]:
+        - heading "Transform Your Inventory Management With Invenie" [level=1] [ref=f2e26]
+        - img "girl" [ref=f2e28]
+      - paragraph [ref=f2e30]: Empower your business with Invenie's inventory management system, designed to adapt to your needs, streamline operations, and scale as you grow. Experience the future of inventory management today.
+      - generic [ref=f2e31]:
+        - link "Start Free" [ref=f2e32] [cursor=pointer]:
+          - /url: https://app.invenie.com/create-account
+        - link "See How It Works" [ref=f2e33] [cursor=pointer]:
+          - /url: "#slz7vd7"
+          - generic [aria-hidden] [ref=f2e35]: 
+      - generic [ref=f2e36]:
+        - generic [ref=f2e37]:
+          - generic [ref=f2e38]:
+            - img "avatar" [ref=f2e39]
+            - paragraph [ref=f2e40]: Emmanuel O.
+          - generic [ref=f2e42]:
+            - generic [aria-hidden] [ref=f2e43]: 
+            - generic [aria-hidden] [ref=f2e44]: 
+            - generic [aria-hidden] [ref=f2e45]: 
+            - generic [aria-hidden] [ref=f2e46]: 
+            - generic [aria-hidden] [ref=f2e47]: 
+          - paragraph [ref=f2e48]: Invenie has revolutionized our inventory processes, allowing us to manage stock efficiently and reduce overhead costs significantly.
+        - generic [ref=f2e49]:
+          - generic [ref=f2e50]:
+            - img "avatar" [ref=f2e51]
+            - paragraph [ref=f2e52]: Zion Dare
+          - generic [ref=f2e54]:
+            - generic [aria-hidden] [ref=f2e55]: 
+            - generic [aria-hidden] [ref=f2e56]: 
+            - generic [aria-hidden] [ref=f2e57]: 
+            - generic [aria-hidden] [ref=f2e58]: 
+            - generic [aria-hidden] [ref=f2e59]: 
+          - paragraph [ref=f2e60]: The customization options in Invenie are outstanding! We can tailor the system to perfectly fit our operational needs.
+    - generic [ref=f2e61]:
+      - img "girl" [ref=f2e64]
+      - img "girl" [ref=f2e67]
+  - generic [ref=f2e71]:
+    - generic [ref=f2e72]:
+      - heading "Revolutionize Your Inventory Management with Invenie" [level=1] [ref=f2e74]
+      - paragraph [ref=f2e75]: Invenie is your ultimate AI-native inventory management solution, meticulously designed to adapt to your business needs. It empowers you to streamline your operations, enhance accuracy, and effortlessly scale as your business grows. Transform the way you manage inventory and unlock new levels of efficiency and control.
+    - generic [ref=f2e76]:
+      - generic [ref=f2e77]:
+        - heading "Tailored Solutions for Your Unique Needs" [level=3] [ref=f2e78]
+        - paragraph [ref=f2e79]: Invenie offers customizable features that ensure your inventory management aligns perfectly with your operational processes, providing unparalleled flexibility tailored to your business.
+        - generic [aria-hidden] [ref=f2e83]: 
+      - generic [ref=f2e86]:
+        - heading "AI-Driven Insights to Maximize Efficiency" [level=3] [ref=f2e87]
+        - paragraph [ref=f2e88]: Leverage Invenie's advanced AI capabilities to gain real-time insights into your inventory. Make informed decisions that reduce excess stock and optimize your supply chain, driving cost savings and boosting profitability.
+        - generic [aria-hidden] [ref=f2e92]: 
+      - generic [ref=f2e95]:
+        - heading "Seamless Integration for Effortless Operations" [level=3] [ref=f2e96]
+        - paragraph [ref=f2e97]: Easily integrate Invenie with your existing systems, improving your workflow without disrupting your current processes. Experience a cohesive environment that enhances collaboration and efficiency across your organization.
+        - generic [aria-hidden] [ref=f2e101]: 
+  - generic [ref=f2e106]:
+    - generic [ref=f2e107]:
+      - heading "Still tracking inventory manually?" [level=2] [ref=f2e108]
+      - paragraph [ref=f2e109]: Start with core inventory and sales for up to 50 items, one owner, and one location. Free forever.
+    - generic [ref=f2e110]:
+      - link "Start Free" [ref=f2e111] [cursor=pointer]:
+        - /url: https://app.invenie.com/create-account
+      - link "See Pricing" [ref=f2e112] [cursor=pointer]:
+        - /url: pricing.html
+  - generic [ref=f2e114]:
+    - generic [ref=f2e115]:
+      - heading "Why Choose Invenie for Your Inventory Needs?" [level=1] [ref=f2e117]
+      - paragraph [ref=f2e118]: Invenie revolutionizes inventory management with an AI-native system that seamlessly adjusts to your business dynamics. Our platform empowers organizations to maximize efficiency, reduce costs, and enhance operational control, all while providing a tailored experience that grows with you. Experience the advantage of a system designed not just for today, but for the future.
+    - generic [ref=f2e119]:
+      - generic [ref=f2e120]:
+        - heading "1,000+" [level=1] [ref=f2e121]
+        - paragraph [ref=f2e122]: Businesses Trust Invenie
+      - generic [ref=f2e123]:
+        - heading "50+" [level=1] [ref=f2e124]
+        - paragraph [ref=f2e125]: Integrations Available
+      - generic [ref=f2e126]:
+        - heading "5+" [level=1] [ref=f2e127]
+        - paragraph [ref=f2e128]: Industries Served
+      - generic [ref=f2e129]:
+        - heading "99.99%" [level=1] [ref=f2e130]
+        - paragraph [ref=f2e131]: Uptime Guarantee
+  - generic [ref=f2e133]:
+    - generic [ref=f2e134]:
+      - heading "Unlock the Future of Inventory Management with Invenie" [level=1] [ref=f2e136]
+      - paragraph [ref=f2e137]: Invenie is designed to elevate your inventory management experience, integrating AI-powered solutions that adapt seamlessly to your operational needs. Say goodbye to inefficiencies and embrace a streamlined approach that enhances productivity and scalability.
+    - generic [ref=f2e138]:
+      - generic [ref=f2e139]:
+        - heading "Scalable to Your Business" [level=3] [ref=f2e140]
+        - paragraph [ref=f2e141]: Invenie's capabilities allow for swift adjustments to changing market/business demands, ensuring your inventory processes remain efficient and relevant.
+        - generic [aria-hidden] [ref=f2e145]: 
+      - generic [ref=f2e148]:
+        - heading "Data-Driven Decisions for Optimal Performance" [level=3] [ref=f2e149]
+        - paragraph [ref=f2e150]: Leverage real-time insights, LLM capabilities for tailored recommendations to help you make informed decisions that drive efficiency and cost savings across your operations.
+        - generic [aria-hidden] [ref=f2e154]: 
+      - generic [ref=f2e157]:
+        - heading "Customizable Features to Align with Your Goals" [level=3] [ref=f2e158]
+        - paragraph [ref=f2e159]: Invenie offers versatile customization options that adapt to your unique operational strategies, ensuring that your inventory management is always a perfect fit.
+        - generic [aria-hidden] [ref=f2e163]: 
+  - generic [ref=f2e166]:
+    - paragraph [ref=f2e167]: Ready to organize your inventory?
+    - generic [ref=f2e168]:
+      - link "Start Free" [ref=f2e169] [cursor=pointer]:
+        - /url: https://app.invenie.com/create-account
+      - link "See Pricing" [ref=f2e170] [cursor=pointer]:
+        - /url: pricing.html
+  - generic [ref=f2e173]:
+    - generic [ref=f2e174]:
+      - heading "Connect with Invenie Today" [level=3] [ref=f2e175]
+      - paragraph [ref=f2e176]: Ready to elevate your inventory management? Our team is here to assist you in customizing our AI-native system to meet your specific business needs. Fill out the form below, and let’s start the conversation on how Invenie can transform your operations.
+      - generic [ref=f2e178]:
+        - generic [ref=f2e180]:
+          - generic [ref=f2e181]: Full Name
+          - textbox "Full Name" [ref=f2e183]:
+            - /placeholder: Enter your name
+        - generic [ref=f2e185]:
+          - generic [ref=f2e186]: Your Email Address
+          - textbox "Your Email Address" [ref=f2e188]:
+            - /placeholder: Enter your email
+        - generic [ref=f2e189]:
+          - generic [ref=f2e190]: Message Details
+          - textbox "Message Details" [ref=f2e192]:
+            - /placeholder: Share your thoughts or questions
+        - button "Submit Your Inquiry" [ref=f2e194] [cursor=pointer]
+    - generic [aria-hidden] [ref=f2e197]: 
+  - generic [ref=f2e204]:
+    - generic [ref=f2e205]:
+      - heading "Ready to simplify your inventory?" [level=2] [ref=f2e206]
+      - paragraph [ref=f2e207]: Start managing your first 50 inventory items for free. No credit card required.
+    - generic [ref=f2e208]:
+      - link "Start Free" [ref=f2e209] [cursor=pointer]:
+        - /url: https://app.invenie.com/create-account
+      - link "See Pricing" [ref=f2e210] [cursor=pointer]:
+        - /url: pricing.html
+  - contentinfo [ref=f2e211]:
+    - generic [ref=f2e212]:
+      - generic [ref=f2e213]:
+        - link "Invenie" [ref=f2e214] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f2e216]:
+          - link "Solutions" [ref=f2e217] [cursor=pointer]:
+            - /url: solutions.html
+          - link "Pricing" [ref=f2e218] [cursor=pointer]:
+            - /url: pricing.html
+          - link "Blog" [ref=f2e219] [cursor=pointer]:
+            - /url: blog.html
+          - link "Contact" [ref=f2e220] [cursor=pointer]:
+            - /url: "#sm5exha"
+          - link "FAQs" [ref=f2e221] [cursor=pointer]:
+            - /url: faqs.html
+        - generic [ref=f2e222]:
+          - link [ref=f2e223] [cursor=pointer]:
+            - /url: https://www.instagram.com/app_invenie/
+            - generic [aria-hidden] [ref=f2e224]: 
+          - link [ref=f2e225] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/invenie
+            - generic [aria-hidden] [ref=f2e226]: 
+          - link [ref=f2e227] [cursor=pointer]:
+            - /url: https://x.com/invenie
+            - generic [aria-hidden] [ref=f2e228]: 
+      - paragraph [ref=f2e230]: "@ copyright invenie.com 2025. All Rights Reserved"
