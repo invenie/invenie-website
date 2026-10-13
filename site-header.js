@@ -6,6 +6,7 @@
   const isHome = page === 'index.html' || page === '';
   const isSolutions = page === 'solutions.html';
   const isPricing = page === 'pricing.html';
+  const isAbout = page === 'about.html';
   const isResource = page === 'blog.html' || page === 'faqs.html' || page === 'article.html';
   const contactHref = isHome ? '#sm5exha' : 'index.html#sm5exha';
 
@@ -46,6 +47,7 @@
                   </div>
                 </div>
               </li>
+              <li class="flex items-center p-2 border-t border-gray-200 lg:border-t-transparent lg:p-0"><a href="about.html" class="${linkClass(isAbout)}">About</a></li>
               <li class="flex items-center p-2 border-t border-gray-200 lg:border-t-transparent lg:p-0">
                 <a href="${contactHref}" class="${linkClass(false)}">Contact</a>
               </li>

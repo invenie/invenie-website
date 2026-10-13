@@ -8,7 +8,11 @@
 
     <meta charset="utf-8">
     <title>Invenie Article</title>
-    <meta name="description" content="Read practical inventory management insights from Invenie.">
+    <meta name="description" content="Read practical guidance on connected inventory, sales, and operations from Invenie.">
+    <meta property="og:title" content="Invenie Blog Article">
+    <meta property="og:description" content="Practical guidance on connected inventory, sales, and operations.">
+    <meta name="twitter:title" content="Invenie Blog Article">
+    <meta name="twitter:description" content="Practical guidance on connected inventory, sales, and operations.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,6 +53,7 @@
           <a href="pricing.html">Pricing</a>
           <a href="blog.html">Blog</a>
           <a href="faqs.html">FAQs</a>
+          <a href="about.html">About</a>
           <a href="index.html#sm5exha">Contact</a>
         </div>
         <div class="pricing-social-links">
@@ -63,7 +68,7 @@
           </a>
         </div>
       </div>
-      <p class="pricing-copyright">@ copyright invenie.com 2025. All Rights Reserved</p>
+      <p class="pricing-copyright">? Invenie 2026. All rights reserved.</p>
     </footer>
 
     <script>
@@ -110,7 +115,13 @@
         function renderArticle(article, relatedArticles) {
           document.title = `${article.title} | Invenie Blog`;
           const metaDescription = document.querySelector('meta[name="description"]');
-          if (metaDescription) metaDescription.setAttribute('content', article.summary || 'Read practical inventory management insights from Invenie.');
+          if (metaDescription) metaDescription.setAttribute('content', article.summary || 'Read practical guidance on connected inventory, sales, and operations from Invenie.');
+          ['meta[property="og:title"]', 'meta[name="twitter:title"]'].forEach((selector) => {
+            document.querySelector(selector)?.setAttribute('content', document.title);
+          });
+          ['meta[property="og:description"]', 'meta[name="twitter:description"]'].forEach((selector) => {
+            document.querySelector(selector)?.setAttribute('content', article.summary || 'Practical guidance from Invenie.');
+          });
 
           root.className = 'article-content-wrap';
           root.innerHTML = `
@@ -125,7 +136,7 @@
             </header>
             <div class="article-layout">
               <div class="article-content">
-                ${(article.content || []).map(renderBlock).join('')}<section class="article-start-free"><h2>Put this into practice with Invenie.</h2><p>Start with core inventory and sales for up to 50 items free forever. Explore paid plans for advanced workflows.</p><div class="cta-actions"><a class="pricing-button" href="https://app.invenie.com/create-account">Start Free</a><a class="cta-secondary" href="pricing.html">See Pricing</a></div></section>
+                ${(article.content || []).map(renderBlock).join('')}<section class="article-start-free"><h2>Put connected operations into practice.</h2><p>Start with core inventory and sales for free. Explore paid plans for advanced workflows.</p><div class="cta-actions"><a class="pricing-button" href="https://app.invenie.com/create-account">Start Free</a><a class="cta-secondary" href="pricing.html">See Pricing</a></div></section>
               </div>
               <aside class="article-sidebar">
                 <div class="article-sidebar-card">
